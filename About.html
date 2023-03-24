@@ -59,6 +59,44 @@ body {
     img {
     border: 15PX groove #C276AE;
 }
+    p {
+    background-color: #FFFFFF;
+    color: #020101;
+    font-style: italic;
+    font-size: x-large;
+}
+/*		.grow img{
+transition: 1s ease;
+}*/
+
+./*grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}*/
+		
+		
+.grow {
+height: 225px;		
+width: 225px;		
+transition: height 1s width 2s;
+}
+		
+.grow:hover{
+height: 300px;		
+width: 300px;	
+	-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+			
+}
+  
+body h1 {
+}
+    img {
+}
     </style>
 </head>
 
@@ -86,12 +124,12 @@ body {
 	<br>
 <p>Im a Students at BECA in the 10th Grade</p>
 	<br>
-<p>My favorite color is Yellow and White</p>
-<img src="Artifacts/images.jpeg" width="279" height="181" alt=""/>
-<p>My favorite book is a Long Walk To Water</p>
-	<img src="Artifacts/Unknown.jpeg" width="183" height="276" alt=""/><br>
+<p>My favorite color is Yellow and White.</p>
+<img class = "grow" src="Artifacts/images.jpeg" width="279" height="181" alt=""/>
+<p>My favorite book is a Long Walk To Water.</p>
+	<img class = "grow" src="Artifacts/Unknown.jpeg" width="183" height="276" alt=""/><br>
 <br> 
-<p>Im from the Dominican Republic But I live in NYC</p>
-<img src="Artifacts/Unknown.png" width="225" height="225" alt=""/>
+<p>Im from the Dominican Republic But I live in NYC.</p>
+<img class = "grow"  src="Artifacts/Unknown.png" alt=""/>
 </body>
 </html>

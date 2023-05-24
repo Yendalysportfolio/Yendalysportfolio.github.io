@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About Me Page</title>
+	
+	<style>
+	
+div {background-color: white;}
+div a {
+  text-decoration: none;
+  color: hotpink;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+		
+		
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    background-color: #DC8ABD;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+body {
+    color: #FFFFFF;
+    background-color:pink;
+}
+    h1 {
+    text-shadow: 0px 10px #CF76C5;
+    font-style: italic;
+    font-size: 100px;
+    text-decoration: underline;
+}
+    h2 {
+    font-style: italic;
+    font-size: xx-large;
+    text-shadow: 0px 10px #E18DD5;
+}
+		h1:hover { 
+  background-color: purple ;
+}
+    ul li ul {
+}
+    img {
+    border: 15PX groove #C276AE;
+}
+    p {
+    background-color: #FFFFFF;
+    color: #020101;
+    font-style: italic;
+    font-size: x-large;
+}
+/*		.grow img{
+transition: 1s ease;
+}*/
+
+./*grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}*/
+		
+		
+.grow {
+height: 225px;		
+width: 225px;		
+transition: height 1s width 2s;
+}
+		
+.grow:hover{
+height: 300px;		
+width: 300px;	
+	-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+			
+}
+  
+body h1 {
+}
+    img {
+}
+    </style>
+</head>
+
+<body>
+	
+	<div>
+  <ul>
+    <li>
+      <a href="#">-Pages-</a>
+      <ul>
+        <li><a href="visualdesign.html">VisualDesign</a></li>
+        <li><a href="WCP.html">WCP Page</a></li>
+		<a href="digitaldesign.html">Digital Design</a>
+        <li><a href="index.html">Home Page</a></li>
+		  
+      </ul>
+    </li>
+  </ul>
+</div>
+	
+	<br>
+	<h1>About Me Page</h1>
+	<br>
+	<h2>My Name: Yendalys Santos</h2>
+	<br>
+<p>Im a Students at BECA in the 10th Grade</p>
+	<br>
+<p>My favorite color is Yellow and White.</p>
+<img class = "grow" src="Artifacts/images.jpeg" width="279" height="181" alt=""/>
+<p>My favorite book is a Long Walk To Water.</p>
+	<img class = "grow" src="Artifacts/Unknown.jpeg" width="183" height="276" alt=""/><br>
+<br> 
+<p>Im from the Dominican Republic But I live in NYC.</p>
+<img class = "grow"  src="Artifacts/Unknown.png" alt=""/>
+</body>
+</html>
